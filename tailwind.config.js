@@ -6,9 +6,10 @@ export default {
       padding: {
         DEFAULT: "1rem",
         sm: ".5rem",
-        lg: "4rem",
-        xl: "5rem",
-        "2xl": "6rem",
+        md: "2rem",
+        lg: "2rem",
+        xl: "3rem",
+        "2xl": "3rem",
       },
     },
     extend: {
