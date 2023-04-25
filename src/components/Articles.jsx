@@ -37,11 +37,13 @@ const data = [
 
 const Articles = () => {
   return (
-    <div className="mb-14">
+    <div className="mb-14 my-container">
       <div>
-        <h3 className="text-2xl text-center mb-4">Latest Articles</h3>
+        <h3 className="text-3xl text-center md:text-left my-7">
+          Latest Articles
+        </h3>
       </div>
-      <div className="flex flex-col justify-center ">
+      <div className="flex flex-col justify-center md:flex-row md:flex-wrap md:justify-center lg:flex-nowrap ">
         {data.map((d, idx) => (
           <Blog data={d} key={idx} />
         ))}

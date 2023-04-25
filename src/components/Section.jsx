@@ -25,13 +25,17 @@ const data = [
 
 const section = () => {
   return (
-    <div className=" bg-lightGray w-[100vw]">
-      <h2 className="text-3xl px-10 text-center">Why choose Easybank?</h2>
-      <p className="text-center text-[16px]">
-        We leverage Open Banking to turn your bank account into your financial
-        hub. Control your finances like never before.
-      </p>
-      <div className=" container mx-auto flex flex-col justify-center items-center gap-12 py-12 ">
+    <div className=" bg-lightGray overflow-visible">
+      <div className="my-container pt-[6rem]  ">
+        <h2 className="text-3xl  text-center lg:text-left ">
+          Why choose Easybank?
+        </h2>
+        <p className="text-center text-[16px] lg:text-left lg:w-[50%]">
+          We leverage Open Banking to turn your bank account into your financial
+          hub. Control your finances like never before.
+        </p>
+      </div>
+      <div className=" my-container mx-auto flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-center items-center gap-12 md:gap-7 py-12 ">
         {data.map((d, idx) => (
           <Card data={d} key={idx} />
         ))}

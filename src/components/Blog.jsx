@@ -1,6 +1,6 @@
 const Card = ({ data }) => {
   return (
-    <div className="w-[80%]  max-w-[350px] mx-auto mb-9 shadow-lg rounded-md overflow-hidden">
+    <div className="my-container max-w-[350px] md:max-w-[250px] mx-auto  mb-9 shadow-lg rounded-md overflow-hidden">
       <div>
         <img
           className="object-cover h-46 w-full mb-3"
