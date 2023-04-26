@@ -1,5 +1,4 @@
 import mockup from "../assets/images/image-mockups.png";
-import Button from "./Button";
 
 const Hero = () => {
   return (
@@ -18,7 +17,14 @@ const Hero = () => {
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.
         </p>
-        <Button text="request invite" />
+        <div className=" flex justify-center md:justify-start">
+          <a
+            className="py-[7px] px-5 rounded-2xl capitalize text-white bg-gradient-to-r from-limeGreen to-brightCyan"
+            href="/"
+          >
+            Request Invite
+          </a>
+        </div>
       </div>
     </div>
   );

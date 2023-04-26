@@ -1,5 +1,4 @@
 import Card from "./Card";
-import img from "../assets/images/icon-online.svg";
 const data = [
   {
     img: "https://res.cloudinary.com/dzmpjgmes/image/upload/v1681684146/icon-online_zgw2vb.svg",
