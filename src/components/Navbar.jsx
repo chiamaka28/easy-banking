@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className=" bg-white  relative ">
       <div className="flex justify-between py-5 px-3  my-container relative">
         <img src={logo} alt="/" />
-        <ul className="flex gap-6 text- grayishBlue hidden">
+        <ul className=" gap-6 text- grayishBlue hidden md:flex">
           <li>
             <a href="#">Home</a>
           </li>
